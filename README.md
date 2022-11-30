@@ -14,8 +14,8 @@ npm –version
 
 2º PASSO (OPCIONAL): Pode-se instalar o editor de texto VS Code e, dentro do VS Code, instalar o plugin code runner (https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) para simplificar o processo de execução, sendo feito diretamente no VS Code. Quando desejar executar ou para a execução de um código, precisa-se apenas pressionar as teclas:
 
-CTRL + ALT + N     > Executar
-CTRL + ALT + M     > Parar execução
+CTRL + ALT + N   -> Executar
+CTRL + ALT + M   -> Parar execução
 
 3º PASSO: Criar e configurar um Bot no Telegram (Precisa-se instalar o software Telegram, ou usar a versão Web disponível no site oficial https://telegram.org/apps).  
 
