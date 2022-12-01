@@ -1,0 +1,18 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "descricao": "Entregar o trabalho da faculdade",
+      "dt_previsao": "2022-12-09",
+      "dt_conclusao": null,
+      "observacao": "Lembrar de colocar o nome dos integrantes na entrega"
+    },
+    {
+      "id": 2,
+      "descricao": "Terminar o curso de chatbot",
+      "dt_previsao": "2022-12-15",
+      "dt_conclusao": null,
+      "observacao": "Não esquecer de colocar o certificado no Linkedin"
+    }
+  ]
+}
