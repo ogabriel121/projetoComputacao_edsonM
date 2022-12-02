@@ -50,7 +50,7 @@ Pressionar o comando no chat ou procurar no menu de comandos ou digitar o comand
 Agora, escolher um nome para o bot e um identificador (finalizando com a palavra bot).
 
 Depois, o bot será criado e informará o Token de acesso ao bot. Este token será usado nos próximos passos. 
-É recomendável não compartilhar esse token, pois é um dado sensível.
+**É recomendável não compartilhar esse token, pois é um dado sensível.**
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103379267/205319292-2475b99f-7842-4096-a87d-837a1e1c8706.png" width="550px" />
 </div>
@@ -75,7 +75,7 @@ Depois, o bot será criado e informará o Token de acesso ao bot. Este token ser
 
 Para baixar o projeto, clique em download ZIP. Depois, extraia a pasta em sua máquina.
 
-
+<img src="https://user-images.githubusercontent.com/103379267/205360246-f970cc88-64b9-463a-aa23-b6ecc65898e1.PNG" width="380px" />
 
 Agora, use o terminal e entre dentro do diretório pertencente ao projeto para digitar este comando:
 ```bash
@@ -85,16 +85,16 @@ npm i
 Se ocorrer qualquer tipo de erro, você poderá instalar cada biblioteca manualmente (dentro do diretório do projeto) com estes comandos:
 
 ```bash
-npm i –save telegraf@3.17.3 -E
+npm i -–save telegraf@3.17.3 -E
 ```
 ```bash
-npm i –save axios@0.17.1 -E
+npm i -–save axios@0.17.1 -E
 ```
 ```bash
 npm i –save moment@2.20.1 -E
 ```
 ```bash
-npm i –save json-server
+npm i -–save json-server
 ```
 
 Observação: As versões de algumas bibliotecas são declaradas de forma exata para que seja evitado erros devido às novas atualizações de versão delas. 
@@ -104,17 +104,19 @@ Observação: As versões de algumas bibliotecas são declaradas de forma exata 
 ### **6º PASSO:** Colar Seu Token de Acesso do Telegram no Arquivo .env.
 Entrar no arquivo .env (através de um editor de texto) na pasta do projeto e trocar seuToken pelo Token do seu bot que colou anteriormente.
 
+<img src="https://user-images.githubusercontent.com/103379267/205360968-c219cb16-730e-46b9-81f7-8f06a2e4e054.png" width="651px">
 (Observação não exclua os apóstrofos, apenas a palavra seuToken) 
 
 <br>
 
 ### **7º PASSO:** Verificar o Seu Arquivo package.json.
-Na parte de scripts verificar se existe o script “start”: “json-server(…)”
+Na parte de scripts verificar se existe o script `“start”: “json-server(…)”`
 
 Caso não exista, exclua os scripts existentes e adicione
-“start”: “json-server –watch db.json –port 3001”
-
-
+```
+“start”: “json-server –-watch db.json –-port 3001”
+```
+<img src="https://user-images.githubusercontent.com/103379267/205362379-cfd5c214-3415-4ead-ad03-a83de8506e87.png" width="615px">
 
 Assim, poderá ser usado este script através do terminal com o comando npm start para iniciar o servidor através da porta 3001 usando o arquivo db.json para armazenamento (pode alterar a porta ou o arquivo, porém, como padrão, serão utilizados a porta 3001 e o arquivo db.json).
 
