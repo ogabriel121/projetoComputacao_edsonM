@@ -113,8 +113,8 @@ Entrar no arquivo .env (através de um editor de texto) na pasta do projeto e tr
 Na parte de scripts verificar se existe o script `“start”: “json-server(…)”`
 
 Caso não exista, exclua os scripts existentes e adicione
-```
-“start”: “json-server –-watch db.json –-port 3001”
+```json
+"start": "json-server –-watch db.json –-port 3001"
 ```
 <img src="https://user-images.githubusercontent.com/103379267/205362379-cfd5c214-3415-4ead-ad03-a83de8506e87.png" width="615px">
 
@@ -126,7 +126,11 @@ Assim, poderá ser usado este script através do terminal com o comando npm star
 
 **8º PASSO *(SEM O VS CODE)*:** Se não estiver usando o VS Code, é recomendável abrir dois terminais (um para executar o código e outro para o json server) e, nos dois, entrar dentro do diretório do projeto. Agora, execute o comando npm start no primeiro terminal e depois o comando node agenda.js no outro terminal.
 
+<img src="https://user-images.githubusercontent.com/103379267/205374937-4239e50c-6146-418a-afc5-3a434ca5903a.PNG" width="750px">
+
 **8º PASSO *(COM VS CODE)*:** No próprio VS Code com o plugin code runner, é possível usar o terminal disponível no VS (verificar se está dentro do diretório do projeto) e digitar o comando npm start (executar servidor). Depois, pressione as teclas CTRL + ALT + N na aba do arquivo agenda.json (executar código).    
+
+<img src=""colocar imagem aqui>
 
 <br>
 
