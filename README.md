@@ -106,6 +106,7 @@ Observação: As versões de algumas bibliotecas são declaradas de forma exata 
 Entrar no arquivo .env (através de um editor de texto) na pasta do projeto e trocar seuToken pelo Token do seu bot que colou anteriormente **(no 3º PASSO)**.
 
 <img src="https://user-images.githubusercontent.com/103379267/205360968-c219cb16-730e-46b9-81f7-8f06a2e4e054.png" width="651px">
+
 (Observação não exclua os apóstrofos, apenas a palavra seuToken) 
 
 <br>
@@ -158,6 +159,6 @@ Assim, poderá ser usado este script através do terminal com o comando npm star
 
 ### Referências Utilizadas no Projeto
 
-> Guia de Markdown : https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
+- Guia de Markdown : https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
 
-> Curso de Chatbot : https://www.cod3r.com.br/courses/chatbot-para-telegram-com-node-3-projetos
+- Curso de Chatbot : https://www.cod3r.com.br/courses/chatbot-para-telegram-com-node-3-projetos
