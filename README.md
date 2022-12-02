@@ -110,7 +110,7 @@ Entrar no arquivo .env (através de um editor de texto) na pasta do projeto e tr
 <br>
 
 ### **7º PASSO:** Verificar o Seu Arquivo package.json.
-Na parte de scripts verificar se existe o script `“start”: “json-server(…)”`
+Na parte de scripts verificar se existe o script `"start": "json-server(…)"`
 
 Caso não exista, exclua os scripts existentes e adicione
 ```json
