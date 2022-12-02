@@ -128,7 +128,11 @@ Assim, poderá ser usado este script através do terminal com o comando npm star
 
 <img src="https://user-images.githubusercontent.com/103379267/205374937-4239e50c-6146-418a-afc5-3a434ca5903a.PNG" width="750px">
 
-**8º PASSO *(COM VS CODE)*:** No próprio VS Code com o plugin code runner, é possível usar o terminal disponível no VS (verificar se está dentro do diretório do projeto) e digitar o comando npm start (executar servidor). Depois, pressione as teclas CTRL + ALT + N na aba do arquivo agenda.json (executar código).    
+**8º PASSO *(COM VS CODE)*:** No próprio VS Code com o plugin code runner, é possível usar o terminal disponível no VS (verificar se está dentro do diretório do projeto) e digitar o comando npm start (executar servidor). Depois, na aba do arquivo agenda.js, para executar o código pressione as teclas:
+
+`CTRL + ALT + N`
+
+Já foi comentado sobre esse comando no **2º PASSO**.
 
 <img src=""colocar imagem aqui>
 
