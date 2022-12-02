@@ -48,6 +48,7 @@ Pressionar o comando no chat ou procurar no menu de comandos ou digitar o comand
 </div>
 
 Agora, escolher um nome para o bot e um identificador (finalizando com a palavra bot).
+(Observação: Guarde o nome e o identificador do bot, será possível encontrar seu bot por meio dos dois)
 
 Depois, o bot será criado e informará o Token de acesso ao bot. Este token será usado nos próximos passos. 
 **É recomendável não compartilhar esse token, pois é um dado sensível.**
@@ -59,7 +60,7 @@ Depois, o bot será criado e informará o Token de acesso ao bot. Este token ser
 
 <br>
 
-### **4º PASSO (OPCIONAL):** Editar Foto de Perfil do Bot.
+### **4º PASSO (OPCIONAL):** Editar Foto de Perfil do Bot
 
  Para editar a foto volte na conversa com o BotFather, ou procure pelo bot novamente. E realize a seguinte sequência de passos:
 
@@ -71,7 +72,7 @@ Depois, o bot será criado e informará o Token de acesso ao bot. Este token ser
 <br>
 <br>
 
-### **5º PASSO:** Instalar este Projeto e as Bibliotecas do Node para Conseguir Executar o Projeto.
+### **5º PASSO:** Instalar este Projeto e as Bibliotecas do Node para Conseguir Executar o Projeto
 
 Para baixar o projeto, clique em download ZIP. Depois, extraia a pasta em sua máquina.
 
@@ -101,15 +102,15 @@ Observação: As versões de algumas bibliotecas são declaradas de forma exata 
 
 <br>
 
-### **6º PASSO:** Colar Seu Token de Acesso do Telegram no Arquivo .env.
-Entrar no arquivo .env (através de um editor de texto) na pasta do projeto e trocar seuToken pelo Token do seu bot que colou anteriormente.
+### **6º PASSO:** Colar Seu Token de Acesso do Telegram no Arquivo .env
+Entrar no arquivo .env (através de um editor de texto) na pasta do projeto e trocar seuToken pelo Token do seu bot que colou anteriormente **(no 3º PASSO)**.
 
 <img src="https://user-images.githubusercontent.com/103379267/205360968-c219cb16-730e-46b9-81f7-8f06a2e4e054.png" width="651px">
 (Observação não exclua os apóstrofos, apenas a palavra seuToken) 
 
 <br>
 
-### **7º PASSO:** Verificar o Seu Arquivo package.json.
+### **7º PASSO:** Verificar o Seu Arquivo package.json
 Na parte de scripts verificar se existe o script `"start": "json-server(…)"`
 
 Caso não exista, exclua os scripts existentes e adicione
@@ -122,7 +123,7 @@ Assim, poderá ser usado este script através do terminal com o comando npm star
 
 <br>
 
-### **8º PASSO:** Executar o Código agenda.js e o Servidor json server.
+### **8º PASSO:** Executar o Código agenda.js e o Servidor json server
 
 **8º PASSO *(SEM O VS CODE)*:** Se não estiver usando o VS Code, é recomendável abrir dois terminais (um para executar o código e outro para o json server) e, nos dois, entrar dentro do diretório do projeto. Agora, execute o comando npm start no primeiro terminal e depois o comando node agenda.js no outro terminal.
 
@@ -132,12 +133,31 @@ Assim, poderá ser usado este script através do terminal com o comando npm star
 
 `CTRL + ALT + N`
 
-Já foi comentado sobre esse comando no **2º PASSO**.
+(Observação: Já foi comentado sobre esse comando no **2º PASSO**)
 
 <img src=""colocar imagem aqui>
 
 <br>
+<br>
 
-Pronto, agora seu bot estará executando o código e irá armazenar as tarefas no seu arquivo db.json. Agora, procure pelo seu bot no Telegram e divirta-se com ele.
+#### Pronto, agora seu bot estará executando o código e irá armazenar as tarefas no seu arquivo db.json. Agora, procure o seu bot pelo **identificador ou nome**  *(seguindo o mesmo exemplo de procura do 3º PASSO pelo BotFather)* no Telegram e divirta-se com ele.
 
+<img src="https://user-images.githubusercontent.com/103379267/205396495-2cf7b71e-3b5b-4473-ad63-edb44f55cf96.PNG" width="650px">
+
+<br>
+<br>
+
+### Espero que tenha gostado do projeto assim como o Octocat!
 > ![parabéns](https://media.giphy.com/media/jrdgDVFrcgJpNlonWO/giphy.gif)
+
+<br>
+
+#
+
+<br>
+
+### Referências Utilizadas no Projeto
+
+> Guia de Markdown : https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
+
+> Curso de Chatbot : https://www.cod3r.com.br/courses/chatbot-para-telegram-com-node-3-projetos
