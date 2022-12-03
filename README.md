@@ -87,6 +87,10 @@ Agora, use o terminal e entre dentro do diretório pertencente ao projeto para d
 npm i
 ```
 
+(Observação: O comando `npm i` baixa todas as bibliotecas que foram utilizadas no projeto. Pois estão contidas como dependência do projeto)
+
+<br>
+
 Se ocorrer qualquer tipo de erro, você poderá instalar cada biblioteca manualmente (dentro do diretório do projeto) com estes comandos:
 
 ```bash
