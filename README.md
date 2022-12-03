@@ -175,6 +175,8 @@ Agora, execute o comando `npm start` no primeiro terminal e depois o comando `no
 
 ### Referências Utilizadas no Projeto
 
+- Documentação de Bots do Telegram: https://core.telegram.org/bots/api
+
 - Documentação do Telegraf: https://telegrafjs.org/
 
 - Documentação do Moment: https://momentjs.com/docs
