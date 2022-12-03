@@ -23,7 +23,7 @@ npm –-version
 ### **2º PASSO (OPCIONAL):** Instalar o VS Code e o Plugin Code Runner 
 Pode-se instalar o editor de texto <a href="https://code.visualstudio.com/" target="_blank">VS Code</a> e, dentro do VS Code, instalar o plugin <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner" target="_blank">code runner</a> para simplificar o processo de execução, sendo feito diretamente no VS Code. 
 
-Quando desejar executar ou para a execução de um código, precisa-se apenas pressionar as teclas:
+Quando desejar executar ou parar a execução de um código, precisa-se apenas pressionar as teclas:
 
 ` CTRL + ALT + N ` -> Executar
 
@@ -32,7 +32,7 @@ Quando desejar executar ou para a execução de um código, precisa-se apenas pr
 <br>
 
 ### **3º PASSO:** Criar e Configurar um Bot no Telegram
-Para criar e Configurar um Bot no Telegram é necessário instalar o software **Telegram**, ou usar a versão Web disponível no <a href="https://telegram.org/apps" target="_blank">site oficial</a>.  
+Para criar e configurar um Bot no Telegram é necessário instalar o software **Telegram**, ou usar a versão Web, disponíveis no <a href="https://telegram.org/apps" target="_blank">site oficial</a>.  
 
 No Telegram, encontrar o campo de pesquisa (ícone de lupa) e procurar por **BotFather**. Depois, clicar em BotFather e iniciar a conversa com ele.
 
@@ -40,31 +40,35 @@ No Telegram, encontrar o campo de pesquisa (ícone de lupa) e procurar por **Bot
 <img src="https://user-images.githubusercontent.com/103379267/205319116-636cc425-d96a-44e5-b45a-a74e5750319b.PNG" width="550px" />
 </div>
 
-(Observação: ele é um bot de respostas automáticas baseado em uma lista de comandos)
+(Observação: Ele é um bot de respostas automáticas baseado em uma lista de comandos)
 
 Pressionar o comando no chat ou procurar no menu de comandos ou digitar o comando `/newbot` para criar um novo bot.
+
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103379267/205319217-c25104b0-1db9-4d3c-ab69-a9d9a3574a30.PNG" width="550px" />
 </div>
 
-Agora, escolher um nome para o bot e um identificador (finalizando com a palavra bot).
+Agora, escolha um nome para o bot e um identificador (finalizando com a palavra bot).
+
 (Observação: Guarde o nome e o identificador do bot, será possível encontrar seu bot por meio dos dois)
 
 Depois, o bot será criado e informará o Token de acesso ao bot. Este token será usado nos próximos passos. 
+
 **É recomendável não compartilhar esse token, pois é um dado sensível.**
+
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103379267/205319292-2475b99f-7842-4096-a87d-837a1e1c8706.png" width="550px" />
 </div>
 
-(Observação: Caso alguém tenha acesso a esse dado, há possibilidade dele usar o seu bot. Caso isso aconteça, revogue o seu token de acesso em: ` /mybots > identificador do seu Bot > API Token > Revoke Token ` )
+(Observação: Caso alguém tenha acesso a esse dado, há possibilidade dele usar o seu bot. Caso isso aconteça, revogue o seu token de acesso na conversa com o BotFather seguindos esses passos: ` /mybots > identificador do seu Bot > API Token > Revoke Token ` )
 
 <br>
 
 ### **4º PASSO (OPCIONAL):** Editar Foto de Perfil do Bot
 
- Para editar a foto volte na conversa com o BotFather, ou procure pelo bot novamente. E realize a seguinte sequência de passos:
+Caso desejar editar a foto, volte na conversa com o BotFather ou procure pelo bot novamente. E realize a seguinte sequência de passos:
 
-` /mybots > identificador do seu bot > Edit Bot > Edit Botpic > enviar em anexo a imagem que deseja colocar para o bot `
+` /mybots > identificador do seu bot > Edit Bot > Edit Botpic > enviar em anexo a imagem que deseja adicionar ao seu bot `
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103379267/205322915-4654fa98-0b87-44f7-9c85-d6949bf18e74.PNG" width="550px" />
 </div>
@@ -74,7 +78,7 @@ Depois, o bot será criado e informará o Token de acesso ao bot. Este token ser
 
 ### **5º PASSO:** Instalar este Projeto e as Bibliotecas do Node para Conseguir Executar o Projeto
 
-Para baixar o projeto, clique em download ZIP. Depois, extraia a pasta em sua máquina.
+Para baixar o projeto, clique em **Download ZIP**. Depois, extraia a pasta em sua máquina.
 
 <img src="https://user-images.githubusercontent.com/103379267/205360246-f970cc88-64b9-463a-aa23-b6ecc65898e1.PNG" width="380px" />
 
@@ -98,39 +102,43 @@ npm i –save moment@2.20.1 -E
 npm i -–save json-server
 ```
 
-Observação: As versões de algumas bibliotecas são declaradas de forma exata para que seja evitado erros devido às novas atualizações de versão delas. 
+(Observação: As versões de algumas bibliotecas são declaradas de forma exata para que seja evitado erros no código devido às novas atualizações de versão delas) 
 
 <br>
 
-### **6º PASSO:** Colar Seu Token de Acesso do Telegram no Arquivo .env
-Entrar no arquivo .env (através de um editor de texto) na pasta do projeto e trocar seuToken pelo Token do seu bot que colou anteriormente **(no 3º PASSO)**.
+### **6º PASSO:** Colar Seu Token de Acesso do Bot no Arquivo .env
+Na pasta do projeto, abra o arquivo .env (através de um editor de texto) e troque `seuToken` pelo Token do seu bot que colou anteriormente **(no 3º PASSO)**.
 
 <img src="https://user-images.githubusercontent.com/103379267/205360968-c219cb16-730e-46b9-81f7-8f06a2e4e054.png" width="651px">
 
-(Observação não exclua os apóstrofos, apenas a palavra seuToken) 
+(Observação: Não exclua os apóstrofos, apenas a palavra seuToken) 
 
 <br>
 
 ### **7º PASSO:** Verificar o Seu Arquivo package.json
-Na parte de scripts verificar se existe o script `"start": "json-server(…)"`
+Na parte de scripts, verificar se existe o script `"start": "json-server(…)"`.
 
-Caso não exista, exclua os scripts existentes e adicione
+Caso não exista, exclua os scripts existentes e adicione o código:
 ```json
 "start": "json-server –-watch db.json –-port 3001"
 ```
 <img src="https://user-images.githubusercontent.com/103379267/205362379-cfd5c214-3415-4ead-ad03-a83de8506e87.png" width="615px">
 
-Assim, poderá ser usado este script através do terminal com o comando npm start para iniciar o servidor através da porta 3001 usando o arquivo db.json para armazenamento (pode alterar a porta ou o arquivo, porém, como padrão, serão utilizados a porta 3001 e o arquivo db.json).
+Assim, poderá ser usado esse script através do terminal com o comando `npm start` para iniciar o servidor através da **porta 3001** usando o arquivo **db.json** para armazenamento.
+
+(Observação: Se quiser, pode alterar para outra porta ou arquivo, porém, como padrão, serão utilizados a porta 3001 e o arquivo db.json)
 
 <br>
 
 ### **8º PASSO:** Executar o Código agenda.js e o Servidor json server
 
-**8º PASSO *(SEM O VS CODE)*:** Se não estiver usando o VS Code, é recomendável abrir dois terminais (um para executar o código e outro para o json server) e, nos dois, entrar dentro do diretório do projeto. Agora, execute o comando `npm start` no primeiro terminal e depois o comando node agenda.js no outro terminal.
+**8º PASSO *(SEM O VS CODE)*:** Se não estiver usando o VS Code, é recomendável abrir dois terminais (um para executar o código e outro para o json server) e, nos dois, entrar dentro do diretório do projeto.
+
+Agora, execute o comando `npm start` no primeiro terminal e depois o comando `node agenda.js` no outro terminal.
 
 <img src="https://user-images.githubusercontent.com/103379267/205374937-4239e50c-6146-418a-afc5-3a434ca5903a.PNG" width="750px">
 
-**8º PASSO *(COM VS CODE)*:** No próprio VS Code com o plugin code runner, é possível usar o terminal disponível no VS (verificar se está dentro do diretório do projeto) e digitar o comando `npm start` (executar servidor). Depois, na aba do arquivo agenda.js, para executar o código pressione as teclas:
+**8º PASSO *(COM VS CODE)*:** No próprio VS Code com o plugin code runner, é possível usar o terminal disponível no VS (verificar se ele está dentro do diretório do projeto) e digitar o comando `npm start` (executar servidor). Depois, na aba do arquivo agenda.js, para executar o código pressione as teclas:
 
 `CTRL + ALT + N`
 
@@ -142,7 +150,9 @@ Assim, poderá ser usado este script através do terminal com o comando npm star
 <br>
 <br>
 
-#### Pronto, agora seu bot estará executando o código e irá armazenar as tarefas no seu arquivo db.json. Agora, procure o seu bot pelo **identificador ou nome**  *(seguindo o mesmo exemplo de procura do 3º PASSO pelo BotFather)* no Telegram e divirta-se com ele.
+#### Pronto, agora seu bot estará executando o código e irá armazenar as tarefas no seu arquivo db.json. Agora, procure o seu bot pelo **identificador ou nome** no Telegram e divirta-se com ele.
+
+*(Pode seguir o mesmo exemplo de procura do 3º PASSO pelo BotFather)*
 
 <img src="https://user-images.githubusercontent.com/103379267/205396495-2cf7b71e-3b5b-4473-ad63-edb44f55cf96.PNG" width="650px">
 
@@ -150,6 +160,7 @@ Assim, poderá ser usado este script através do terminal com o comando npm star
 
 [![Apresentação](https://user-images.githubusercontent.com/103379267/205419746-204847ac-c7f4-4a44-b4e2-73efd78d1487.png)](https://youtu.be/K-E_w6qVa7o)
 
+<br>
 <br>
 <br>
 
