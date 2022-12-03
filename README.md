@@ -96,7 +96,7 @@ npm i -–save telegraf@3.17.3 -E
 npm i -–save axios@0.17.1 -E
 ```
 ```bash
-npm i –save moment@2.20.1 -E
+npm i –-save moment@2.20.1 -E
 ```
 ```bash
 npm i -–save json-server
