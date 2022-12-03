@@ -126,11 +126,11 @@ Assim, poderá ser usado este script através do terminal com o comando npm star
 
 ### **8º PASSO:** Executar o Código agenda.js e o Servidor json server
 
-**8º PASSO *(SEM O VS CODE)*:** Se não estiver usando o VS Code, é recomendável abrir dois terminais (um para executar o código e outro para o json server) e, nos dois, entrar dentro do diretório do projeto. Agora, execute o comando npm start no primeiro terminal e depois o comando node agenda.js no outro terminal.
+**8º PASSO *(SEM O VS CODE)*:** Se não estiver usando o VS Code, é recomendável abrir dois terminais (um para executar o código e outro para o json server) e, nos dois, entrar dentro do diretório do projeto. Agora, execute o comando `npm start` no primeiro terminal e depois o comando node agenda.js no outro terminal.
 
 <img src="https://user-images.githubusercontent.com/103379267/205374937-4239e50c-6146-418a-afc5-3a434ca5903a.PNG" width="750px">
 
-**8º PASSO *(COM VS CODE)*:** No próprio VS Code com o plugin code runner, é possível usar o terminal disponível no VS (verificar se está dentro do diretório do projeto) e digitar o comando npm start (executar servidor). Depois, na aba do arquivo agenda.js, para executar o código pressione as teclas:
+**8º PASSO *(COM VS CODE)*:** No próprio VS Code com o plugin code runner, é possível usar o terminal disponível no VS (verificar se está dentro do diretório do projeto) e digitar o comando `npm start` (executar servidor). Depois, na aba do arquivo agenda.js, para executar o código pressione as teclas:
 
 `CTRL + ALT + N`
 
@@ -138,12 +138,17 @@ Assim, poderá ser usado este script através do terminal com o comando npm star
 
 [![Executar Projeto](https://user-images.githubusercontent.com/103379267/205412385-084963cb-e12d-4509-bb85-a23676f8b5c8.png)](https://youtu.be/NBerhh6yF9E)
 **Clique acima para ver o vídeo.**
+
 <br>
 <br>
 
 #### Pronto, agora seu bot estará executando o código e irá armazenar as tarefas no seu arquivo db.json. Agora, procure o seu bot pelo **identificador ou nome**  *(seguindo o mesmo exemplo de procura do 3º PASSO pelo BotFather)* no Telegram e divirta-se com ele.
 
 <img src="https://user-images.githubusercontent.com/103379267/205396495-2cf7b71e-3b5b-4473-ad63-edb44f55cf96.PNG" width="650px">
+
+### Clique abaixo para assistir a apresentação do projeto JulhoBot
+
+[![Apresentação](https://user-images.githubusercontent.com/103379267/205419746-204847ac-c7f4-4a44-b4e2-73efd78d1487.png)](https://youtu.be/K-E_w6qVa7o)
 
 <br>
 <br>
