@@ -175,6 +175,14 @@ Agora, execute o comando `npm start` no primeiro terminal e depois o comando `no
 
 ### Referências Utilizadas no Projeto
 
+- Documentação do Telegraf: https://telegrafjs.org/
+
+- Documentação do Moment: https://momentjs.com/docs
+
+- Documentação do Axios: https://axios-http.com/docs/intro
+
+- Documentação do Json-Server: https://github.com/typicode/json-server
+
 - Guia de Markdown : https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
 
 - Curso de Chatbot : https://www.cod3r.com.br/courses/chatbot-para-telegram-com-node-3-projetos
