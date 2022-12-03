@@ -136,8 +136,8 @@ Assim, poderá ser usado este script através do terminal com o comando npm star
 
 (Observação: Já foi comentado sobre esse comando no **2º PASSO**)
 
-<img src=""colocar imagem aqui>
-
+[![Executar Projeto](https://user-images.githubusercontent.com/103379267/205412385-084963cb-e12d-4509-bb85-a23676f8b5c8.png)](https://youtu.be/NBerhh6yF9E)
+**Clique acima para ver o vídeo.**
 <br>
 <br>
 
